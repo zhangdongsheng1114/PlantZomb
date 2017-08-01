@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="794dp"
+        android:layout_height="368dp"
+        android:layout_x="-6dp"
+        android:layout_y="3dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/bk1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_x="523dp"
+        android:layout_y="7dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/shovel_bk" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="430dp"
+        android:layout_height="wrap_content"
+        android:layout_x="72dp"
+        android:layout_y="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/seedbank" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="17dp"
+        android:layout_y="0dp"
+        app:srcCompat="@mipmap/sunbank" />
+
+    <ImageView
+        android:id="@+id/zomb3"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:layout_x="177dp"
+        android:layout_y="5dp"
+        app:srcCompat="@mipmap/sunbank" />
+
+    <ImageView
+        android:id="@+id/zomb1"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:layout_x="83dp"
+        android:layout_y="4dp"
+        app:srcCompat="@mipmap/sunbank" />
+
+    <ImageView
+        android:id="@+id/zomb2"
+        android:layout_width="43dp"
+        android:layout_height="49dp"
+        android:layout_x="131dp"
+        android:layout_y="5dp"
+        app:srcCompat="@mipmap/sunbank" />
+
+    <ImageView
+        android:id="@+id/zomb4"
+        android:layout_width="43dp"
+        android:layout_height="52dp"
+        android:layout_x="221dp"
+        android:layout_y="4dp"
+        app:srcCompat="@mipmap/sunbank" />
+
+    <TextView
+        android:id="@+id/sunCountTV"
+        android:layout_width="41dp"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="43dp"
+        android:text="200"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
+
+    <GridLayout
+        android:id="@+id/boxesLayout"
+        android:layout_width="460dp"
+        android:layout_height="303dp"
+        android:layout_x="71dp"
+        android:layout_y="58dp"
+        android:columnCount="9">
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="50dp"
+            android:layout_height="60dp">
+
+        </FrameLayout>
+    </GridLayout>
+
+</AbsoluteLayout>
